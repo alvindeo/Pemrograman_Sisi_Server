@@ -1,0 +1,1 @@
+<?php echo 'Hello from PHP Web App in Docker!'; ?>

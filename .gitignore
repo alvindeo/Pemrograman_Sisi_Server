@@ -1,0 +1,36 @@
+# Virtual Environments
+env_django/
+*/env_django/
+venv/
+*/venv/
+.venv/
+*/.venv/
+
+# Python
+__pycache__/
+*/__pycache__/
+*.py[cod]
+*$py.class
+*.sqlite3
+
+# Docker Volumes / Data lokal
+postgres-data/
+*/postgres-data/
+mysql-data/
+*/mysql-data/
+
+# Dependencies
+server/vendor/
+node_modules/
+*/node_modules/
+
+# Environment files
+.env
+*.env
+!.env.example
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
