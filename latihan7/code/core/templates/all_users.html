@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Users</h1>
+  
+<ul>
+  {% for x in myusers %}
+    <li>{{ x.username }} ({{ x.first_name }} {{ x.last_name }}) - {{ x.email }}</li>
+  {% endfor %}
+</ul>
+
+</body>
+</html>
